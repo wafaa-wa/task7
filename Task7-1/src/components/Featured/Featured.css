@@ -1,0 +1,19 @@
+.Featured .FirstIcon svg:nth-child(1) {
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #e3e5ff;
+}
+
+.AllFeaturedCard {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Featured {
+    margin-bottom: 100px;
+}

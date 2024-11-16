@@ -1,0 +1,72 @@
+.PricingCard , .PricingCard1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid #d8e0ff;
+    border-radius: 20px;
+}
+.PricingCard .TopCard {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #384bff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.Describtion {
+    color: #a4abbc;
+}
+.Describtion1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.Describtion1 div {
+    margin-bottom: 20px;
+
+}
+.left svg {
+    margin-right: 5px;
+    color: #384bff;
+}
+.wrong svg {
+    margin-right: 5px;
+    color: red;
+
+}
+.PricingCard button {
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #d8e0ff;
+    background-color: white;
+    margin-top: 20px;
+    color: #495aff;
+}
+.PricingCard1 .TopCard {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #18185e;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+.PricingCard1  button {
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #d8e0ff;
+    background-color: #18185e;
+    margin-top: 20px;
+    color: white;
+}

@@ -1,0 +1,119 @@
+.test {
+    position: absolute;
+    z-index: 2000;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.Nav2 {
+    width: 100%;
+    height: 61px;
+}
+
+.Nav2 .Wo-Nav {
+    width: 100%;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+}
+
+.logo3 {
+    width: 100px;
+}
+
+.test .Wo-Nav {
+    background-color: #fff;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-radius: 50px;
+    box-shadow: 0 15px 5px 0 rgba(0, 0, 0, .25);
+
+}
+
+.Menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.Menu li a {
+    color: #222;
+    margin: 0px 10px;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.test .Nav-second-side {
+    display: flex;
+    align-items: center;
+}
+
+
+.Nav-icon {
+    margin: 0px 10px;
+    padding: 3px 10px;
+}
+
+.Nav-icon svg {
+    margin: 0px 10px;
+}
+
+.Nav-icon svg:nth-child(2) {
+    color: #384bff;
+}
+
+.test .Nav-Btn button {
+    color: #fff;
+    background-color: #384bff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Nav2 .Nav-Btn {
+    background-color: #384bff;
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+.Nav2 .Nav-Btn::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid #384bff;
+    border-top: 30px solid transparent;
+    left: -65px;
+    bottom: -5px;
+    transform: rotate3d(0, 0, 1, -10deg)
+}
+
+.Nav2 .Nav-Btn button {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.Nav-Btn button svg {
+    margin-left: 10px;
+}

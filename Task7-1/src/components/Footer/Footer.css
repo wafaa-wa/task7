@@ -1,0 +1,280 @@
+.Footer {
+    margin-top: 300px;
+}
+
+.Footer1 {
+    padding: 40px;
+    background-color: #384bff;
+    border-radius: 20px;
+    position: relative;
+    bottom: -50px;
+    z-index: 15;
+
+
+}
+
+.Foter1-1 {
+    width: 100%;
+    position: relative;
+
+}
+
+.Foter1-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+
+.Foter1-2 h3 {
+    color: white;
+}
+
+.ImgLeft img {
+    width: 200px;
+    position: absolute;
+    z-index: 9;
+    top: -100px;
+
+}
+
+.FooterLeft1 {
+    position: absolute;
+    z-index: 7;
+    width: 300px;
+    left: -50px;
+    bottom: -70px;
+
+}
+
+.FooterLeft2 {
+    position: absolute;
+    z-index: 7;
+    width: 50px;
+    left: -20px;
+    top: 40px;
+
+}
+
+.FooterBetween {
+    position: absolute;
+    z-index: 7;
+    width: 150px;
+    left: 50px;
+    top: 50px;
+}
+
+.FooterRight {
+    position: absolute;
+    z-index: 7;
+    width: 150px;
+    right: 0;
+    top: 40px;
+}
+
+.Footer .Footer2 {
+    width: 100%;
+    background-color: #18185e;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    position: absolute;
+
+
+}
+
+.Footer2-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FirstFoo .Logo1 {
+    margin-bottom: 10px;
+
+}
+
+.FirstFoo p {
+    margin-bottom: 10px;
+}
+
+.FootIcon svg {
+    margin-right: 5px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.Footer2-1 h4 {
+    margin-bottom: 30px;
+
+}
+
+.SecondFoo div {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SecondFoo div svg {
+    margin-right: 5px;
+}
+
+.ThirdFoo-1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ThirdFoo-11 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+}
+
+.ThirdFoo-11 img {
+    margin-right: 10px;
+}
+
+.ThirdFooRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ThirdFooRight div {
+    color: #a4a4c0;
+}
+
+.ThirdFooRight div svg {
+    margin-right: 5px;
+}
+
+.FourtFoo div , .FourtFoo1 div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.FourtFoo div svg , .FourtFoo1 div svg {
+    margin-right: 5px;
+}
+
+.FourtFoo form input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.FourtFoo1 form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #18185e;
+    border: 1px solid #d9e0ff;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox input {
+    margin-right: 5px;
+}
+
+.checkbox a {
+    color: #fff;
+}
+
+.Footer .Footer3 {
+    color: #fff;
+    background-color: #384bff;
+    padding: 10px;
+    position: relative;
+    top: 300px;
+}
+
+.Footer3-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer3-11 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.Footer3-1-2 span {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 3px;
+}
+
+.FooterTow .Footer2 {
+    width: 100%;
+    background-color: #18185e;
+    color: white;
+    padding-top: 190px;
+    padding-bottom: 70px;
+    position: absolute;
+
+}
+.FooterTow {
+    height: 0;
+    
+}
+
+.FooterTow1 {
+    padding: 40px;
+    background-color: #384bff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    position: relative;
+    z-index: 50;
+    bottom: -170px;
+
+}
+
+.FooterTow1-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FooterTow1-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.FooterTow1-1 svg {
+    margin-right: 15px;
+    border: 1px dotted white;
+    border-radius: 50%;
+}
+
+.FooterTow1-2 span {
+    margin-bottom: 5px;
+}
+
+.FooterTow .Footer3 {
+    color: #fff;
+    background-color: #384bff;
+    padding: 10px;
+    position: relative;
+    top: 480px;
+}

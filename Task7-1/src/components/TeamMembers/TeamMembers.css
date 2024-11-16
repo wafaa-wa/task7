@@ -1,0 +1,30 @@
+.TeamMembers1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TeamMembers1 button {
+    color: #fff;
+    background-color: #384bff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.TeamMembers1 button svg {
+    margin-left: 10px;
+}
+
+.AllTeamMembersCard {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}

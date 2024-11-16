@@ -1,0 +1,228 @@
+.Hero {
+    background-color: #384bff;
+    height: calc(100vh - 40px);
+    width: 100%;
+    bottom: 5px;
+    color: white;
+    position: relative;
+    bottom: -40px;
+    border-radius: 20px 20px 10px 20px;
+
+}
+
+.Hero11 {
+    height: calc(80vh - 91px);
+}
+
+.Hero11Cont {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Hero11Img {
+    width: 100%;
+    height: 100%;
+    z-index: -99;
+}
+.Hero11Cont .color {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    background-color: #3541b1a8;
+}
+.Hero11Cont .Hero11Right {
+    
+    position: absolute;
+    right: 0;
+    z-index: 15;
+
+}
+.Hero11Cont .Hero11Left {
+   
+    position: absolute;
+    left: 0;
+    top: -10px;
+    z-index: 15;
+
+}
+
+.Hero11Cont1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: max-content;
+    color: #fff;
+    top: 55%;
+    left: 50%;
+    z-index: 7;
+    
+}
+
+
+.Hero .Hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Hero .Hero-First-Side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    margin-top: 70px;
+}
+
+.Hero .Top-Side {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.Hero .Top-Side1 {
+    border: 1px solid #c3c9ff;
+    border-radius: 30px;
+    padding: 10px;
+    width: fit-content;
+    margin-bottom: 15px;
+
+}
+
+.Hero .Top-Side h1 {
+    margin-bottom: 15px;
+}
+
+.Hero .Top-Side2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.Hero .Top-Side2-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.Hero .Top-Side2-1 div {
+    margin-bottom: 10px;
+}
+
+.Hero .Hero-First-Side button {
+    color: #fff;
+    background-color: #f98600;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.Hero .Hero-First-Side button svg {
+    margin-left: 10px;
+}
+
+.Hero .Bottom-Side {
+    background-color: #4c5dff;
+    border: 1px solid #4c5dff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    width: fit-content;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.Hero .Bottom-Side .left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.Hero .left-side {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    position: relative;
+}
+
+.Hero .left-side1 {
+    margin-bottom: 10px;
+}
+
+.Hero .left-side2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Hero .left-side2 img {
+    width: 40%;
+    margin-right: 10px;
+}
+
+.Hero .line {
+    width: 2px;
+    height: 60px;
+    z-index: 11px;
+    position: absolute;
+    background-color: #727fff;
+    right: 20px;
+    top: 30px;
+
+}
+
+.Hero .Hero-Second-Side {
+    width: 50%;
+    position: relative;
+}
+
+.Hero .Hero-imag {
+    position: absolute;
+    left: 150px;
+    top: -210px;
+    z-index: 5;
+}
+
+.Hero .Hero-imag img {
+    width: 300px;
+}
+
+.Hero .PhotoLeft {
+    position: absolute;
+    bottom: -13px;
+    left: 0;
+}
+
+.Hero .PhotoLeft img {
+    width: 150px;
+
+}
+
+.Hero .PhotoRight {
+    position: absolute;
+    right: 0;
+    bottom: -11px;
+    z-index: 1;
+}
+
+.Hero .PhotoRight img {
+    width: 400px;
+}
+
+.Hero .PhotoBottom {
+    position: absolute;
+    bottom: -70px;
+    z-index: 6;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 100px;
+    left: 50%;
+}
+
+.Hero .PhotoBottom img {
+    width: 100%;
+    padding: 15px;
+}

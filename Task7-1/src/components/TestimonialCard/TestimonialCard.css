@@ -1,0 +1,75 @@
+.TestimonialCard {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.TestimonialCard1 {
+    background-color: #384bff;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+}
+.TestimonialCard1::after {
+    content: '';
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    z-index: 13;
+    border-radius: 20px;
+    background-color: #ebedff;
+    bottom: -30px;
+    left: 0;
+}
+.TestimonialCard1::before {
+    content: '';
+    width: 40%;
+    height: 15px;
+    position: absolute;
+    z-index: 15;
+    border-radius: 20px;
+    background-color: #384bff;
+    bottom: -30px;
+    right: 30%;
+
+}
+
+.TestimonialCard .StarIcon , .TestimonialCard1 .StarIcon {
+    margin-bottom: 10px;
+}
+
+.TestimonialCard .StarIcon svg , .TestimonialCard1 .StarIcon svg {
+    color: yellow;
+}
+
+.TestimonialCard p , .TestimonialCard1 p  {
+    color: #dbdee5;
+    margin-bottom: 10px;
+}
+
+.Profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Profile img {
+    margin-right: 10px;
+}
+
+.Profile p {
+    color: #dbdee5;
+    margin-top: 10px;
+}
+
+.Profile svg {
+    color: #dbdee5;
+}
+
+.Profile1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}

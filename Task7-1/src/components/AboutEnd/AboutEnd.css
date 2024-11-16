@@ -1,0 +1,29 @@
+.AboutEnd {
+    margin-top: 250px;
+}
+
+.AboutEnd1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line {
+    width: 30%;
+    height: 1px;
+    border: 1px solid #d4dcff;
+    background-color: #d4dcff;
+}
+
+.AboutEnd2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.AboutEnd2 img {
+    width: 100px;
+}
